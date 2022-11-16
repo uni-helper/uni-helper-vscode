@@ -1,4 +1,4 @@
-# vscode-uni-helper
+# @uni-helper/uni-helper-vscode
 
 [![License](https://img.shields.io/github/license/uni-helper/uni-helper-vscode)](https://github.com/uni-helper/uni-helper-vscode/blob/main/LICENSE)
 
@@ -12,10 +12,10 @@
 
 本插件实际上是以下几个插件的扩展包。
 
-- [vscode-uni-app-schemas](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-schemas-vscode) - 校验 `uni-app` 中的 `androidPrivacy.json`、`pages.json` 和 `manifest.json` 格式，也可以直接在对应的文件中添加 `$schema` 来使用对应的 `schema` 文件
-- [vscode-uni-app-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-snippets-vscode) - 提供 `uni-app` 基本能力代码片段
-- [vscode-uni-cloud-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-cloud-snippets-vscode) - 提供 `uni-cloud` 基本能力代码片段
-- [vscode-uni-ui-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode) - 提供 `uni-ui` 基本能力代码片段
+- [uni-app-schemas](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-schemas-vscode) - 校验 `uni-app` 中的 `androidPrivacy.json`、`pages.json` 和 `manifest.json` 格式，也可以直接在对应的文件中添加 `$schema` 来使用对应的 `schema` 文件
+- [uni-app-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-snippets-vscode) - 提供 `uni-app` 基本能力代码片段
+- [uni-cloud-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-cloud-snippets-vscode) - 提供 `uni-cloud` 基本能力代码片段
+- [uni-ui-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode) - 提供 `uni-ui` 基本能力代码片段
 
 **插件和文档的冲突之处，请以文档为准。**
 
