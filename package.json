@@ -80,7 +80,7 @@
     "uni-helper.uni-cloud-snippets-vscode",
     "uni-helper.uni-ui-snippets-vscode"
   ],
-  "packageManager": "npm@9.1.1",
+  "packageManager": "npm@9.2.0",
   "engines": {
     "node": ">=14.16",
     "vscode": "^1.40.0"
