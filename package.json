@@ -36,11 +36,14 @@
   },
   "publisher": "uni-helper",
   "type": "module",
+  "files": [
+    "*.vsix"
+  ],
   "scripts": {
     "check:deps": "ncu --dep dev,optional,prod,packageManager",
     "check:types": "tsc --noEmit",
     "lint": "run-p lint:eslint lint:markdownlint",
-    "lint:eslint": "eslint . --ext=.js,.cjs,.mjs,.ts,.cts,.mts --fix --cache --no-error-on-unmatched-pattern --ignore-path=.gitignore",
+    "lint:eslint": "eslint . --fix --cache --no-error-on-unmatched-pattern",
     "lint:markdownlint": "markdownlint . --fix --ignore-path=.gitignore",
     "release": "release-it",
     "prepare": "is-ci || husky install",
@@ -49,30 +52,28 @@
     "publish:openvsx": "ovsx publish"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.12",
-    "@babel/eslint-parser": "^7.19.1",
-    "@commitlint/cli": "^17.4.0",
-    "@commitlint/config-conventional": "^17.4.0",
-    "@commitlint/prompt": "^17.4.0",
-    "@modyqyw/fabric": "^5.16.0",
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
+    "@commitlint/prompt": "^17.4.2",
+    "@modyqyw/fabric": "^6.0.6",
     "@tsconfig/node18": "^1.0.1",
-    "@types/node": "^18.11.18",
-    "@typescript-eslint/eslint-plugin": "^5.48.0",
-    "@typescript-eslint/parser": "^5.48.0",
-    "commitizen": "^4.2.6",
-    "eslint": "^8.31.0",
+    "@types/node": "^18.13.0",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "@typescript-eslint/parser": "^5.51.0",
+    "@vscode/vsce": "^2.17.0",
+    "commitizen": "^4.3.0",
+    "eslint": "^8.33.0",
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
-    "lint-staged": "^13.1.0",
+    "lint-staged": "^13.1.1",
     "markdownlint-cli": "^0.33.0",
-    "npm-check-updates": "^16.6.2",
+    "npm-check-updates": "^16.6.5",
     "npm-run-all": "^4.1.5",
     "ovsx": "^0.8.0",
-    "prettier": "^2.8.2",
+    "prettier": "^2.8.3",
     "release-it": "^15.6.0",
-    "tsx": "^3.12.1",
-    "typescript": "^4.9.4",
-    "vsce": "^2.14.0"
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
   },
   "extensionPack": [
     "uni-helper.uni-app-schemas-vscode",
@@ -80,7 +81,7 @@
     "uni-helper.uni-cloud-snippets-vscode",
     "uni-helper.uni-ui-snippets-vscode"
   ],
-  "packageManager": "npm@9.2.0",
+  "packageManager": "npm@9.4.1",
   "engines": {
     "node": ">=14.18",
     "vscode": "^1.40.0"
