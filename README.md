@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/github/license/uni-helper/uni-helper-vscode)](https://github.com/uni-helper/uni-helper-vscode/blob/main/LICENSE)
 
-[![VSCode](https://vsmarketplacebadge.apphb.com/version-short/uni-helper.uni-helper-vscode.svg)](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-helper-vscode)
+[![VSCode](https://vsmarketplacebadge.apphb.com/version-short/uni-helper.uni-helper-vscode.png)](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-helper-vscode)
 
 [![OpenVSX](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=OpenVSX&query=%24.version&url=https%3A%2F%2Fopen-vsx.org%2Fapi%2Funi-helper%2Funi-helper-vscode)](https://open-vsx.org/extension/uni-helper/uni-helper-vscode)
 
