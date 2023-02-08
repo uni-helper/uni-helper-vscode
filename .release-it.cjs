@@ -5,6 +5,5 @@ module.exports = {
   },
   npm: {
     publish: false,
-    timeout: 30,
   },
 };
