@@ -16,6 +16,7 @@
 - [uni-app-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-app-snippets-vscode) - 提供 `uni-app` 基本能力代码片段
 - [uni-cloud-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-cloud-snippets-vscode) - 提供 `uni-cloud` 基本能力代码片段
 - [uni-ui-snippets](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-ui-snippets-vscode) - 提供 `uni-ui` 基本能力代码片段
+- [uni-highlight](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-highlight-vscode) - 在 VS Code中对条件编译的代码注释部分提供了语法高亮
 
 **插件和文档的冲突之处，请以文档为准。**
 

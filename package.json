@@ -80,7 +80,8 @@
     "uni-helper.uni-app-schemas-vscode",
     "uni-helper.uni-app-snippets-vscode",
     "uni-helper.uni-cloud-snippets-vscode",
-    "uni-helper.uni-ui-snippets-vscode"
+    "uni-helper.uni-ui-snippets-vscode",
+    "uni-helper.uni-highlight-vscode"
   ],
   "packageManager": "npm@9.6.4",
   "engines": {
