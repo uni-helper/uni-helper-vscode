@@ -8,6 +8,8 @@
 
 增强 `uni-app` 系列产品在 `VSCode` 内的体验。
 
+想让 `uni-app` 开发变得更直观、高效？想要更好的 `uni-app` 开发体验？不妨看看 [uni-helper 主页](https://uni-helper.js.org) 和 [uni-helper GitHub Organization](https://github.com/uni-helper)！
+
 ## 插件特性
 
 本插件实际上是以下几个插件的扩展包。
