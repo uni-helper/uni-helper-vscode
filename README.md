@@ -1,10 +1,10 @@
 # @uni-helper/uni-helper-vscode
 
-[![License](https://img.shields.io/github/license/uni-helper/uni-helper-vscode)](https://github.com/uni-helper/uni-helper-vscode/blob/main/LICENSE)
+[![License](https://img.shields.io/github/license/uni-helper/uni-helper-vscode?label=License&color=brightgreen)](https://github.com/uni-helper/uni-helper-vscode/blob/main/LICENSE)
 
-[![VSCode](https://vsmarketplacebadge.apphb.com/version-short/uni-helper.uni-helper-vscode.png)](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-helper-vscode)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/uni-helper.uni-helper-vscode?label=VS%20Marketplace&color=brightgreen)](https://marketplace.visualstudio.com/items?itemName=uni-helper.uni-helper-vscode)
 
-[![OpenVSX](https://img.shields.io/badge/dynamic/json?color=brightgreen&label=OpenVSX&query=%24.version&url=https%3A%2F%2Fopen-vsx.org%2Fapi%2Funi-helper%2Funi-helper-vscode)](https://open-vsx.org/extension/uni-helper/uni-helper-vscode)
+[![Open VSX Version](https://img.shields.io/open-vsx/v/uni-helper/uni-helper-vscode?label=Open%20VSX&color=brightgreen)](https://open-vsx.org/extension/uni-helper/uni-helper-vscode)
 
 增强 `uni-app` 系列产品在 `VSCode` 内的体验。
 
@@ -40,9 +40,7 @@
 
 以下是 `vue` 插件推荐，请视情况安装。
 
-- [Volar](https://marketplace.visualstudio.com/items?itemName=vue.volar) - 请仔细阅读文档，并按照文档做相应的设置，同时建议开启 [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471)。
-
-关于 `Vetur` 的说明请看这个 [ISSUE](https://github.com/vuejs/vetur/issues/3476)，简单来说现在更建议使用 `Volar`。
+- [Volar](https://marketplace.visualstudio.com/items?itemName=vue.volar) - 请仔细阅读 [文档](https://cn.vuejs.org/guide/typescript/overview.html)，并按照文档做相应的设置，目前官方更推荐使用 `Volar` 而不是 `Vetur`
 
 ### 开发
 
@@ -51,13 +49,12 @@
 - [any-rule](https://marketplace.visualstudio.com/items?itemName=russell.any-rule)
 - [Auto NPX](https://marketplace.visualstudio.com/items?itemName=antfu.auto-npx)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-- [Commit Message Editor](https://marketplace.visualstudio.com/items?itemName=adam-bender.commit-message-editor)
 - [DotENV Official + Vault](https://marketplace.visualstudio.com/items?itemName=dotenv.dotenv-vscode)
 - [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 - [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Git Line Blame](https://marketplace.visualstudio.com/items?itemName=carlthome.git-line-blame)
 - [Goto definition alias](https://marketplace.visualstudio.com/items?itemName=antfu.goto-alias)
 - [i18n Ally](https://marketplace.visualstudio.com/items?itemName=Lokalise.i18n-ally)
 - [Image preview](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
@@ -66,13 +63,10 @@
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [Partial Diff](https://marketplace.visualstudio.com/items?itemName=ryu1kn.partial-diff)
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [React Style Helper](https://marketplace.visualstudio.com/items?itemName=iceworks-team.iceworks-style-helper)
-- [Regex Previewer](https://marketplace.visualstudio.com/items?itemName=chrmarti.regex)
 - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
 - [SVG](https://marketplace.visualstudio.com/items?itemName=jock.svg)
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 - [TSConfig Helper](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-tsconfig-helper)
 - [UnoCSS](https://marketplace.visualstudio.com/items?itemName=antfu.unocss)
-- [vscode-faker](https://marketplace.visualstudio.com/items?itemName=deerawan.vscode-faker)
 - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
