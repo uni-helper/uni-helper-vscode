@@ -44,13 +44,13 @@
     "publish": "conc \"npm:publish:vscode\" \"npm:publish:openvsx\"",
     "publish:openvsx": "ovsx publish",
     "publish:vscode": "vsce package && vsce publish",
-     "release": "bumpp"
+    "release": "bumpp"
   },
   "devDependencies": {
-    "@vscode/vsce": "^3.9.1",
+    "@vscode/vsce": "^3.9.2",
     "bumpp": "^11.1.0",
-    "concurrently": "^9.2.1",
-    "ovsx": "^0.10.11"
+    "concurrently": "^10.0.3",
+    "ovsx": "^1.0.2"
   },
   "extensionPack": [
     "uni-helper.uni-app-schemas-vscode",
@@ -59,7 +59,7 @@
     "uni-helper.uni-highlight-vscode",
     "uni-helper.uni-ui-snippets-vscode"
   ],
-  "packageManager": "npm@11.14.0",
+  "packageManager": "npm@11.17.0",
   "engines": {
     "node": ">=18",
     "vscode": "^1.40.0"
@@ -67,5 +67,9 @@
   "icon": "uni-helper.png",
   "sponsor": {
     "url": "https://github.com/ModyQyW/sponsors"
+  },
+  "allowScripts": {
+    "@vscode/vsce-sign@2.0.9": true,
+    "keytar@7.9.0": true
   }
 }
