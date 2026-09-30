@@ -38,7 +38,7 @@
   "type": "module",
   "files": [
     "LICENSE",
-    "uni-helper.png"
+    "logo.png"
   ],
   "scripts": {
     "publish": "conc \"npm:publish:vscode\" \"npm:publish:openvsx\"",
@@ -64,7 +64,7 @@
     "node": ">=18",
     "vscode": "^1.40.0"
   },
-  "icon": "uni-helper.png",
+  "icon": "logo.png",
   "sponsor": {
     "url": "https://github.com/ModyQyW/sponsors"
   },
