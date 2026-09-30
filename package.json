@@ -26,13 +26,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uni-helper/uni-helper-vscode"
+    "url": "git+https://github.com/uni-helper/uni-helper-vscode.git"
   },
   "license": "MIT",
   "author": {
     "name": "ModyQyW",
-    "email": "wurui-dev@foxmail.com",
-    "url": "https://modyqyw.github.io"
+    "email": "wurui.dev@gmail.com",
+    "url": "https://modyqyw.top"
   },
   "publisher": "uni-helper",
   "type": "module",
@@ -48,9 +48,9 @@
   },
   "devDependencies": {
     "@vscode/vsce": "^3.9.2",
-    "bumpp": "^11.1.0",
-    "concurrently": "^10.0.3",
-    "ovsx": "^1.0.2"
+    "bumpp": "^12.3.0",
+    "concurrently": "^10.0.5",
+    "ovsx": "^1.2.0"
   },
   "extensionPack": [
     "uni-helper.uni-app-schemas-vscode",
@@ -59,10 +59,21 @@
     "uni-helper.uni-highlight-vscode",
     "uni-helper.uni-ui-snippets-vscode"
   ],
-  "packageManager": "npm@11.17.0",
+  "packageManager": "npm@12.1.0",
   "engines": {
-    "node": ">=18",
     "vscode": "^1.40.0"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "26",
+      "onFail": "warn"
+    },
+    "packageManager": {
+      "name": "npm",
+      "version": "12.1.0",
+      "onFail": "warn"
+    }
   },
   "icon": "logo.png",
   "sponsor": {
