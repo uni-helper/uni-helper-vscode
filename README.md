@@ -1,7 +1,7 @@
 # @uni-helper/uni-helper-vscode
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/uni-helper/uni-helper-vscode@main/logo.png" alt="logo" width="200" height="200" />
+  <img src="https://cdn.jsdelivr.net/gh/uni-helper/uni-helper-vscode@main/logo.png" alt="logo" width="256" height="256" />
 </p>
 
 <p align="center">
