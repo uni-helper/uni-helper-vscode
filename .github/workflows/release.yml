@@ -13,17 +13,17 @@ jobs:
       - uses: actions/checkout@v7
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v6
+
+      - uses: voidzero-dev/setup-vp@v1.21.1
         with:
-          node-version-file: .node-version
-          cache: npm
-          registry-url: https://registry.npmjs.org
-      - run: npm install -g corepack@latest && corepack enable
-      - run: npm install
-      - run: npm run publish
+          cache: true
+          run-install: true
+
+      - run: vpr publish
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
           OVSX_PAT: ${{ secrets.OVSX_PAT }}
-      - run: npx changelogithub
+
+      - run: vpx changelogithub
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
